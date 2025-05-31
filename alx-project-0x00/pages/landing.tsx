@@ -14,11 +14,13 @@ const Landing: React.FC = () => {
             <div className="flex">
                 <Button title="Book Now" styles="btn-sm rounded-sm py-2 px-4 cursor-pointer font-bold bg-green-500" />
                 <Button title="Cancel" styles="btn-sm rounded-md py-3  px-4 cursor-pointer font-bold bg-green-500 ml-2" />
-                <Button title="Register" styles="btn-sm rounded-full p-4 cursor-pointer font-bold bg-green-500 ml-2" />
+                <Button title="Login" styles="btn-sm rounded-lg p-4 cursor-pointer font-bold bg-green-500 ml-2" />
+                <Button title="Register" styles="btn-sm rounded- p-4 cursor-pointer font-bold bg-green-500 ml-2" />
             </div>
             <div className="flex mt-3">
                 <Button title="Book Now" styles="btn-sm rounded-sm py-2 px-4 cursor-pointer font-bold" />
                 <Button title="Cancel" styles="btn-sm rounded-md py-3  px-4 cursor-pointer font-bold ml-2" />
+                <Button title="Login" styles="btn-sm rounded-lg py-3  px-4 cursor-pointer font-bold ml-2" />
                 <Button title="Register" styles="btn-sm rounded-full p-4 cursor-pointer font-bold ml-2" />
             </div>
 
