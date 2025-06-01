@@ -4,9 +4,12 @@ import Button from "@/components/Button";
 
 const Landing: React.FC = () => {
     return (
-        <div className="container">
-            <h1 className=" text-xl font-extralight">Landing Page</h1>
-            <div className="flex">
+        <div className="container mx-auto">
+            <h1 className=" text-xl font-extralight my-2">Landing Page</h1>
+            <div className="grid grid-cols-3">
+              <Card />
+              <Card />
+              <Card />
               <Card />
               <Card />
               <Card />
