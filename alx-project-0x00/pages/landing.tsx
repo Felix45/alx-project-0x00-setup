@@ -6,7 +6,7 @@ const Landing: React.FC = () => {
     return (
         <div className="container mx-auto">
             <h1 className=" text-xl font-extralight my-2">Landing Page</h1>
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-1 items-center justify-items-center md:justify-items-start md:grid-cols-3">
               <Card />
               <Card />
               <Card />
